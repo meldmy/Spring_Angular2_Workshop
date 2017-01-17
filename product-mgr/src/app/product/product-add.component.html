@@ -1,6 +1,0 @@
-<form #f="ngForm" (ngSubmit)="addProduct(f.value)">
-  <input type="text" name="name" required ngModel />
-  <input type="text" name="price" required ngModel />
-  <button [disabled]="!f.valid">Add</button>
-</form>
-<br>

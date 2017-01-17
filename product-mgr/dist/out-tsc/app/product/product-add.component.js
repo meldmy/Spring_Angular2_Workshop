@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter } from "@angular/core";
 export var ProductAddComponent = (function () {
     function ProductAddComponent() {
         this.newProduct = new EventEmitter();
@@ -22,7 +22,7 @@ export var ProductAddComponent = (function () {
     ProductAddComponent = __decorate([
         Component({
             selector: 'app-product-add',
-            templateUrl: './product-add.component.html',
+            templateUrl: "<form #f=\"ngForm\" (ngSubmit)=\"addProduct(f.value)\">\n        <input type=\"text\" name=\"name\" required ngModel />\n        <input type=\"text\" name=\"price\" required ngModel />\n        <button [disabled]=\"!f.valid\">Add</button>\n    </form>\n    <br>",
             styleUrls: ['./product-add.component.css']
         }), 
         __metadata('design:paramtypes', [])
