@@ -1,0 +1,1 @@
+//# sourceMappingURL=D:/Angular2/ng-workshop-starter-master/product-mgr/src/app/product/product.model.js.map

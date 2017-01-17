@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ngstuff.iml" filepath="$PROJECT_DIR$/.idea/modules/ngstuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-mgr/product-mgr.iml" filepath="$PROJECT_DIR$/.idea/modules/product-mgr/product-mgr.iml" group="product-mgr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart.iml" filepath="$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart.iml" group="stuffmart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart_main.iml" group="stuffmart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stuffmart/stuffmart_test.iml" group="stuffmart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typescript/typescript.iml" filepath="$PROJECT_DIR$/.idea/modules/typescript/typescript.iml" group="typescript" />
+    </modules>
+  </component>
+</project>
